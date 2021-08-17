@@ -14,6 +14,7 @@ class GridFieldDuplicateAction
         GridField_ActionProvider
 {
 
+//test
     public function augmentColumns($gridField, &$columns)
     {
         if (! in_array('Actions', $columns))
